@@ -1,0 +1,27 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif}textarea{resize:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+/* body{height: 760px;} */
+a,a:hover {text-decoration: none;}
+.common-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 25px;
+    color: #fff;
+    position: relative;
+    
+}
+.common-title .sup {
+    font-size: 18px;
+    position: absolute;
+    left: 309px;;
+    top: 0;
+}
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.vertical-middle {
+    position: relative;                 
+    top: 50%;
+    transform: translateY(-50%);
+}
